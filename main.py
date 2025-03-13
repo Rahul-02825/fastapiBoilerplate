@@ -3,7 +3,6 @@ from database import init_db, close_db
 from routers import user_router
 
 app = FastAPI()
-
 # Include routers
 app.include_router(user_router.router)
 
